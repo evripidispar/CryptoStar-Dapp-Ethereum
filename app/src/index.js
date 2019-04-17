@@ -39,7 +39,7 @@ const App = {
     App.setStatus("New Star Owner is " + this.account + ".");
   },
 
-  // Implement Task 4 Modify the front end of the DAPP
+  // Implement Task 4 Modify the front end of the DAPP for this project
   lookUp: async function (){
     
   }
