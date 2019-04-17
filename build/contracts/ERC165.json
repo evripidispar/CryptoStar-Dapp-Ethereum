@@ -33,9 +33,9 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.5.0;\n\nimport \"./IERC165.sol\";\n\n/**\n * @title ERC165\n * @author Matt Condon (@shrugs)\n * @dev Implements ERC165 using a lookup table.\n */\ncontract ERC165 is IERC165 {\n    bytes4 private constant _INTERFACE_ID_ERC165 = 0x01ffc9a7;\n    /**\n     * 0x01ffc9a7 ===\n     *     bytes4(keccak256('supportsInterface(bytes4)'))\n     */\n\n    /**\n     * @dev a mapping of interface id to whether or not it's supported\n     */\n    mapping(bytes4 => bool) private _supportedInterfaces;\n\n    /**\n     * @dev A contract implementing SupportsInterfaceWithLookup\n     * implement ERC165 itself\n     */\n    constructor () internal {\n        _registerInterface(_INTERFACE_ID_ERC165);\n    }\n\n    /**\n     * @dev implement supportsInterface(bytes4) using a lookup table\n     */\n    function supportsInterface(bytes4 interfaceId) external view returns (bool) {\n        return _supportedInterfaces[interfaceId];\n    }\n\n    /**\n     * @dev internal method for registering an interface\n     */\n    function _registerInterface(bytes4 interfaceId) internal {\n        require(interfaceId != 0xffffffff);\n        _supportedInterfaces[interfaceId] = true;\n    }\n}\n",
-  "sourcePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol",
+  "sourcePath": "/Users/evripidispar/Documents/CryptoStar_Dapp_Ethereum-Project_5_Blockchain_Dev_Udacity/node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol",
   "ast": {
-    "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol",
+    "absolutePath": "/Users/evripidispar/Documents/CryptoStar_Dapp_Ethereum-Project_5_Blockchain_Dev_Udacity/node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol",
     "exportedSymbols": {
       "ERC165": [
         283
@@ -56,7 +56,7 @@
         "src": "0:23:2"
       },
       {
-        "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+        "absolutePath": "/Users/evripidispar/Documents/CryptoStar_Dapp_Ethereum-Project_5_Blockchain_Dev_Udacity/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
         "file": "./IERC165.sol",
         "id": 235,
         "nodeType": "ImportDirective",
@@ -649,7 +649,7 @@
     "src": "0:1151:2"
   },
   "legacyAST": {
-    "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol",
+    "absolutePath": "/Users/evripidispar/Documents/CryptoStar_Dapp_Ethereum-Project_5_Blockchain_Dev_Udacity/node_modules/openzeppelin-solidity/contracts/introspection/ERC165.sol",
     "exportedSymbols": {
       "ERC165": [
         283
@@ -670,7 +670,7 @@
         "src": "0:23:2"
       },
       {
-        "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+        "absolutePath": "/Users/evripidispar/Documents/CryptoStar_Dapp_Ethereum-Project_5_Blockchain_Dev_Udacity/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
         "file": "./IERC165.sol",
         "id": 235,
         "nodeType": "ImportDirective",
@@ -1268,7 +1268,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-17T05:37:30.426Z",
+  "updatedAt": "2019-04-17T06:22:19.832Z",
   "devdoc": {
     "author": "Matt Condon (@shrugs)",
     "details": "Implements ERC165 using a lookup table.",

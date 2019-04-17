@@ -27,9 +27,9 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.5.0;\n\n/**\n * @title IERC165\n * @dev https://github.com/ethereum/EIPs/blob/master/EIPS/eip-165.md\n */\ninterface IERC165 {\n    /**\n     * @notice Query if a contract implements an interface\n     * @param interfaceId The interface identifier, as specified in ERC-165\n     * @dev Interface identification is specified in ERC-165. This function\n     * uses less than 30,000 gas.\n     */\n    function supportsInterface(bytes4 interfaceId) external view returns (bool);\n}\n",
-  "sourcePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+  "sourcePath": "/Users/evripidispar/Documents/CryptoStar_Dapp_Ethereum-Project_5_Blockchain_Dev_Udacity/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
   "ast": {
-    "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+    "absolutePath": "/Users/evripidispar/Documents/CryptoStar_Dapp_Ethereum-Project_5_Blockchain_Dev_Udacity/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
     "exportedSymbols": {
       "IERC165": [
         293
@@ -151,7 +151,7 @@
     "src": "0:484:3"
   },
   "legacyAST": {
-    "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+    "absolutePath": "/Users/evripidispar/Documents/CryptoStar_Dapp_Ethereum-Project_5_Blockchain_Dev_Udacity/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
     "exportedSymbols": {
       "IERC165": [
         293
@@ -278,7 +278,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-17T05:37:30.418Z",
+  "updatedAt": "2019-04-17T06:22:19.827Z",
   "devdoc": {
     "details": "https://github.com/ethereum/EIPs/blob/master/EIPS/eip-165.md",
     "methods": {
