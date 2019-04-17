@@ -279,9 +279,9 @@
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "pragma solidity ^0.5.0;\n\nimport \"../../introspection/IERC165.sol\";\n\n/**\n * @title ERC721 Non-Fungible Token Standard basic interface\n * @dev see https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md\n */\ncontract IERC721 is IERC165 {\n    event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);\n    event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId);\n    event ApprovalForAll(address indexed owner, address indexed operator, bool approved);\n\n    function balanceOf(address owner) public view returns (uint256 balance);\n    function ownerOf(uint256 tokenId) public view returns (address owner);\n\n    function approve(address to, uint256 tokenId) public;\n    function getApproved(uint256 tokenId) public view returns (address operator);\n\n    function setApprovalForAll(address operator, bool _approved) public;\n    function isApprovedForAll(address owner, address operator) public view returns (bool);\n\n    function transferFrom(address from, address to, uint256 tokenId) public;\n    function safeTransferFrom(address from, address to, uint256 tokenId) public;\n\n    function safeTransferFrom(address from, address to, uint256 tokenId, bytes memory data) public;\n}\n",
-  "sourcePath": "/Users/evripidispar/Documents/Blockchain_Nanodegree_Udacity_Term_1/Project_5 Build CryptoStar Dapp on Ethereum/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
+  "sourcePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
   "ast": {
-    "absolutePath": "/Users/evripidispar/Documents/Blockchain_Nanodegree_Udacity_Term_1/Project_5 Build CryptoStar Dapp on Ethereum/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
+    "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
     "exportedSymbols": {
       "IERC721": [
         1083
@@ -302,7 +302,7 @@
         "src": "0:23:6"
       },
       {
-        "absolutePath": "/Users/evripidispar/Documents/Blockchain_Nanodegree_Udacity_Term_1/Project_5 Build CryptoStar Dapp on Ethereum/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+        "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
         "file": "../../introspection/IERC165.sol",
         "id": 983,
         "nodeType": "ImportDirective",
@@ -1516,7 +1516,7 @@
     "src": "0:1232:6"
   },
   "legacyAST": {
-    "absolutePath": "/Users/evripidispar/Documents/Blockchain_Nanodegree_Udacity_Term_1/Project_5 Build CryptoStar Dapp on Ethereum/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
+    "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/token/ERC721/IERC721.sol",
     "exportedSymbols": {
       "IERC721": [
         1083
@@ -1537,7 +1537,7 @@
         "src": "0:23:6"
       },
       {
-        "absolutePath": "/Users/evripidispar/Documents/Blockchain_Nanodegree_Udacity_Term_1/Project_5 Build CryptoStar Dapp on Ethereum/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
+        "absolutePath": "/Users/evripidispar/Documents/CryptoStar Dapp Ethereum (Project_5 Blockchain Dev Udacity)/node_modules/openzeppelin-solidity/contracts/introspection/IERC165.sol",
         "file": "../../introspection/IERC165.sol",
         "id": 983,
         "nodeType": "ImportDirective",
@@ -2756,7 +2756,7 @@
   },
   "networks": {},
   "schemaVersion": "3.0.6",
-  "updatedAt": "2019-04-17T04:51:47.540Z",
+  "updatedAt": "2019-04-17T05:37:30.431Z",
   "devdoc": {
     "details": "see https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md",
     "methods": {
